@@ -250,6 +250,22 @@ img {
     font-size: 16px;
     letter-spacing: 0.02em;
     text-align: center;
+    margin-bottom: 8px;
+}
+
+.icons-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+}
+
+.team-icons {
+    fill: #f4f4fd;
+    background-color: #4d5ae5;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
 }
 
 /* Our portfolio */
@@ -303,21 +319,6 @@ img {
     letter-spacing: 0.02em;
 }
 
-.icons-list {
-    display: flex;
-    align-items: center;
-  justify-content: center;
-  gap: 24px;
-}
-
-.team-icons {
-    fill: #f4f4fd;
-    background-color: #4d5ae5;
-    width: 16px;
-    height: 16px;
-    border-radius: 50%;
-}
-
 /* Footer */
 
 .footer {
@@ -348,4 +349,21 @@ img {
     color: #f4f4fd;
     letter-spacing: 0.02em;
     max-width: 264px
+}
+
+.container-footer {
+    display: flex;
+    flex-direction: column;
+}
+
+.social-item {
+    display: flex;
+}
+
+.footer-icons {
+    fill: #f4f4fd;
+    background-color: #4d5ae5;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
 }
