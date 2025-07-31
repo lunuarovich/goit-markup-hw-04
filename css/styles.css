@@ -111,7 +111,10 @@ img {
 
 .section-one {
     padding: 188px 0;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
     background-color: #2e2f42;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .h-one {
@@ -173,6 +176,11 @@ img {
     width: calc((100% - 3 * 24px) / 4);
 }
 
+.benefits-icons {
+    width: 64px;
+    height: 64px;
+}
+
 .benefits-title {
     font-weight: 500;
     font-size: 20px;
@@ -221,6 +229,7 @@ img {
 
 .container-team {
     padding: 32px 0;
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 
 .team-item {
@@ -292,6 +301,21 @@ img {
     line-height: 150%;
     color: #434455;
     letter-spacing: 0.02em;
+}
+
+.icons-list {
+    display: flex;
+    align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+
+.team-icons {
+    fill: #f4f4fd;
+    background-color: #4d5ae5;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
 }
 
 /* Footer */
